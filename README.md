@@ -4,17 +4,17 @@ I’ve been focused on building **backend systems** using **Spring Boot**.
 <br>
 <br>
 <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br> 
     <div style="text-align: left;"> 
       <a href=https://velog.io/@kdh913/posts> 
         <img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=Velog&logoColor=white&link=https://velog.io/@kdh913/posts">
       </a>
-      <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kimdonghwan913@gmail.com">
+      <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white">
     </div> 
 </div>
 <br/>
 <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Skils</h2>  
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🛠️ Skils</h2>  
 </div>
 <div style="text-align: left;">
   <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Platforms & Languages </h2> 
