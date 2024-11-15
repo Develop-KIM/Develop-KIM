@@ -5,6 +5,14 @@ I’ve been focused on building **backend systems** using **Spring Boot**.
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br> 
     <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white"/>
+
+<a href="https://github.com/devxb/gitanimals">
+  <img
+    src="https://render.gitanimals.org/lines/Develop-KIM"
+    width="500"
+    height="150"
+  />
+</a>
 <br/>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🛠️ Skils</h2>  
 <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Platforms & Languages </h2> 
