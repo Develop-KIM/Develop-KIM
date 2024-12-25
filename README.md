@@ -1,6 +1,6 @@
-👋 Hi there! I'm a **backend developer** specializing **Java and Spring**.
-<br/>
-I’ve been focused on building **backend systems** using **Spring Boot**.
+Hi there! I'm a backend developer who has been building **reliable backend systems using Spring Boot**.  
+also **developing full-stack applications with React** and **enhancing my skills in automation and deployment through CI/CD**.
+
 <br>
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br> 
