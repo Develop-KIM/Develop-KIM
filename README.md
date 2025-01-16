@@ -5,9 +5,9 @@ also **developing full-stack applications with React** and **enhancing my skills
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br> 
     <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white"/>
-<a href="https://github.com/devxb/gitanimals">
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Develop-KIM&utm_content=line">
   <img
-    src="https://render.gitanimals.org/lines/Develop-KIM?pet-id=645281333303562365"
+    src="https://render.gitanimals.org/lines/Develop-KIM?pet-id=661330979651350254"
     width="600"
     height="120"
   />
