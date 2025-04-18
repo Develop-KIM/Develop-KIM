@@ -1,4 +1,4 @@
-**Currently leading the backend team at a startup** and working as a **full-stack developer** at HoonHoonSoft, <br/>
+Currently working as a **full-stack developer** and **leading the backend team at a startup**, </br>
 I focus on building robust systems and streamlining CI/CD pipelines.
 
 <br>
