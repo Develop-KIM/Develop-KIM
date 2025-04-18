@@ -1,5 +1,5 @@
-Hi there! I'm a backend developer who has been building **reliable backend systems using Spring Boot**.  
-also **developing full-stack applications with React** and **enhancing my skills in automation and deployment through CI/CD**.
+**Currently leading the backend team at a startup** and working as a **full-stack developer** at HoonHoonSoft, <br/>
+I focus on building robust systems and streamlining CI/CD pipelines.
 
 <br>
 <br>
