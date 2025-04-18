@@ -1,5 +1,4 @@
-Currently working as a **full-stack developer** and **leading the backend team at a startup**, </br>
-I focus on building robust systems and streamlining CI/CD pipelines.
+Currently working as a **full-stack developer** and **leading the backend team at a startup.**
 
 <br>
 <br>
