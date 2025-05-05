@@ -16,7 +16,6 @@ I work full-time as a **full-stack developer**, and on the side, I **lead the ba
 <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Platforms & Languages </h2> 
 <span>
     <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white">
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white">
     <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white">
 </br></br>
     <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white">
