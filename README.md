@@ -20,8 +20,9 @@ I work full-time as a **full-stack developer**, and I **lead the backend team at
   <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
   <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=flat&logo=nuxt&logoColor=white">
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white">
-  <br><br>
+<br><br>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=Kotlin&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white">
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white">
   <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white">
-
 </span>
