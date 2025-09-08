@@ -1,4 +1,4 @@
-I work full-stack developer, and I backend team at a startup.
+Full-stack developer working full-time, also contributing as a backend developer at a startup.
 
 <br>
 <br>
