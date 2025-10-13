@@ -1,18 +1,11 @@
 Full-stack developer working full-time, also contributing as a backend developer at a startup.
-
 <br>
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br> 
     <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white"/>
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Develop-KIM&utm_content=line">
-<img
-  src="https://render.gitanimals.org/farms/Develop-KIM"
-  width="600"
-  height="300"
-/>
 </a>
-</a>
-<br/>
+<br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🛠️ Skils</h2>  
 <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Platforms & Languages </h2> 
 <span>
