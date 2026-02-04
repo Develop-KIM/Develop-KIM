@@ -3,12 +3,13 @@ Full-stack Developer with 1 year of professional experience
 <br>
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Contact me</h2> <br>
-<img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white"/>
+<a href="mailto:kimdonghwan913@gmail.com">
+  <img src="https://img.shields.io/badge/kimdonghwan913@gmail.com-EA4335?style=flat&logo=Gmail&logoColor=white"/>
+</a>
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Develop-KIM&utm_content=line">
 </a>
 <br>
-<h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Skils</h2>
-<h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Platforms & Languages </h3>
+<h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Platforms & Languages</h2>
 <span>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
