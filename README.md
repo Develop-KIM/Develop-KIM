@@ -1,4 +1,5 @@
-Full-stack developer working full-time, also contributing as a backend developer at a startup.
+Full-stack Developer with 1 year of professional experience
+
 <br>
 <br>
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact me</h2> <br>
