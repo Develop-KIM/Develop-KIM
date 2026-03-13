@@ -18,5 +18,6 @@ Full-stack Developer with 1 year of professional experience
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white">
 <br><br>
 <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white">
 </span>
