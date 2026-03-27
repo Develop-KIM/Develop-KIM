@@ -1,4 +1,4 @@
-Full-stack Developer with 1 year of professional experience
+Backend Developer with 1 year of professional experience
 
 <br>
 <br>
