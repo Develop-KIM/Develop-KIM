@@ -20,4 +20,5 @@ Full-stack Developer with 1 year of professional experience
 <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white">
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white">
 </span>
