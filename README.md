@@ -13,6 +13,7 @@ Backend Developer with 1 year of professional experience
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Platforms & Languages</h2>
 <span>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white">
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white">
 <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
 <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=flat&logo=nuxt&logoColor=white">
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white">
