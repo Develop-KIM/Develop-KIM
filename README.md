@@ -16,12 +16,6 @@ Backend Developer with 1 year of professional experience
       <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
       Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference.
     </li>
-    <li>
-      <b>EO language runtime</b> -
-      <a href="https://github.com/objectionary/eo/pull/5347">PR #5347</a>:
-      Fixed null-message exception handling in <code>PhSafe.through()</code> to preserve EO runtime
-      error-wrapping guarantees.
-    </li>
   </ul>
 
   <br>
