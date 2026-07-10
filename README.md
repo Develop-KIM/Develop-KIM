@@ -9,12 +9,11 @@ Backend Developer with 1 year of professional experience
       <b>Node.js Undici</b> -
       <a href="https://github.com/nodejs/undici/pull/5534">PR #5534</a>:
       Added support for asynchronous reply options callbacks in Undici's mock testing API
-      <i>(merged, approved by the maintainer)</i>.
     </li>
     <li>
       <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
-      Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference.
+      Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference
     </li>
   </ul>
 
