@@ -6,6 +6,21 @@ Developer with 1 year of professional experience
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Open Source</h2>
   <ul>
     <li>
+      <b>Redis (node-redis)</b> -
+      <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>:
+      Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code>, which had silently fallen back to the server's 5-sample estimate instead of an exact scan
+    </li>
+    <li>
+      <b>Redisson</b> -
+      <a href="https://github.com/redisson/redisson/pull/7245">PR #7245</a>:
+      Removed a redundant <code>junit-bom</code> import that shadowed Spring Boot 4.1's managed JUnit BOM, clearing the "Ignored POM import" build warnings
+    </li>
+    <li>
+      <b>DOMPurify</b> -
+      <a href="https://github.com/cure53/DOMPurify/pull/1526">PR #1526</a>:
+      Allowed the SVG <code>dominant-baseline</code> / <code>text-orientation</code> presentation attributes in the sanitizer after auditing them as XSS-safe
+    </li>
+    <li>
       <b>Node.js Undici</b> -
       <a href="https://github.com/nodejs/undici/pull/5534">PR #5534</a>:
       Added support for asynchronous reply options callbacks in Undici's mock testing API
