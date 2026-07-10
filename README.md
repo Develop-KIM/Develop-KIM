@@ -1,4 +1,4 @@
-Backend Developer with 1 year of professional experience
+Developer with 1 year of professional experience
 
   <br>
   <br>
