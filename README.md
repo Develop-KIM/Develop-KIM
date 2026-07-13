@@ -16,16 +16,6 @@ Developer with 1 year of professional experience
       Removed a redundant <code>junit-bom</code> import that shadowed Spring Boot 4.1's managed JUnit BOM, clearing the "Ignored POM import" build warnings
     </li>
     <li>
-      <b>DOMPurify</b> -
-      <a href="https://github.com/cure53/DOMPurify/pull/1526">PR #1526</a>:
-      Allowed the SVG <code>dominant-baseline</code> / <code>text-orientation</code> presentation attributes in the sanitizer after auditing them as XSS-safe
-    </li>
-    <li>
-      <b>Node.js Undici</b> -
-      <a href="https://github.com/nodejs/undici/pull/5534">PR #5534</a>:
-      Added support for asynchronous reply options callbacks in Undici's mock testing API
-    </li>
-    <li>
       <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
       Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference
