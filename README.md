@@ -6,35 +6,42 @@ Developer with 1 year of professional experience
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">Open Source</h2>
   <ul>
     <li>
+      <b>Hibernate ORM</b> -
+      <a href="https://github.com/hibernate/hibernate-orm/pull/13050">PR #13050</a>:
+      Fixed UNION queries rejecting the same Java type reached through different attribute paths (e.g. a <code>java.util.Date</code> on the entity vs. one inherited from a <code>@MappedSuperclass</code>) by returning shared per-precision <code>DateJavaType</code> instances
+    </li>
+    <li>
+      <b>Axon Framework</b> -
+      <a href="https://github.com/AxonIQ/AxonFramework/pull/4733">PR #4733</a>:
+      Fixed message-handler resolution to invoke the most specific subtype handler instead of a shadowed supertype handler
+    </li>
+    <li>
+      <b>Spock</b> -
+      <a href="https://github.com/spockframework/spock/pull/2394">PR #2394</a>:
+      Escaped method and property names when rendering interaction mismatches, fixing garbled failure output for names with special characters (e.g. <code>$</code>)
+    </li>
+    <li>
+      <b>Gradle</b> -
+      <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
+      Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference
+    </li>
+    <li>
       <b>undici (Node.js)</b> -
       <a href="https://github.com/nodejs/undici/pull/5534">PR #5534</a>:
       Added asynchronous callback support to the mock agent's <code>reply</code> options, so interceptors can compute mocked responses asynchronously
     </li>
     <li>
-      <b>Axon Framework</b> -
-      <a href="https://github.com/AxonIQ/AxonFramework/pull/4733">PR #4733</a>:
-      Fixed message-handler  the most specific subtypehandler instead of a shadowed supertype handler
-    </li>
-    <li>
-      <b>Spock</b> -
-      <a href="https://github.com/spockframework/spock/pull/2394">PR #2394</a>:
-      Escaped method and prog interaction mismatches,fixing garbled failure output for names with special characters                       </li>
-    <li>                                                                                <b>Redis (node-redis)<
-      <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>,             <a href="https://githull/3333">PR #3333</a>:
-      Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code> (silently falling back to thate), and <code>XGROUPCREATE/SETID</code> omitting an explicit <code>ENTRIESREAD 0</code>
+      <b>Redis (node-redis)</b> -
+      <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>,
+      <a href="https://github.com/redis/node-redis/pull/3333">PR #3333</a>:
+      Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code>, and <code>XGROUP CREATE</code> / <code>XSETID</code> omitting an explicit <code>ENTRIESREAD 0</code> (both silently fell back to the server default)
     </li>
     <li>
       <b>hadolint</b> -
       <a href="https://github.com/hadolint/hadolint/pull/1215">PR #1215</a>:
-      Added a Dockerfile linot-owned files from anotherbuild stage (<code>COPY --from</code>)
-    </li>
-    <li>
-      <b>Gradle</b> -
-      <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
-      Documented lazy (Provittribute configuration in the Java plugin reference
+      Added a Dockerfile lint rule flagging <code>COPY --from</code> that brings in root-owned files from another build stage
     </li>
   </ul>
-
   <br>
   <br>
 
