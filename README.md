@@ -11,15 +11,25 @@ Developer with 1 year of professional experience
       Fixed UNION queries rejecting the same Java type reached through different attribute paths (e.g. a <code>java.util.Date</code> on the entity vs. one inherited from a <code>@MappedSuperclass</code>) by returning shared per-precision <code>DateJavaType</code> instances
     </li>
     <li>
-      <b>Gradle</b> -
-      <a href="https://github.com/gradle/gradle/pull/38469">PR #38469</a>:
-      Documented lazy (Provider-based) Jar manifest attribute configuration in the Java plugin reference
+      <b>pgjdbc (PostgreSQL JDBC)</b> -
+      <a href="https://github.com/pgjdbc/pgjdbc/pull/4297">PR #4297</a>:
+      Fixed <code>PreparedStatement.getMetaData()</code> bypassing <code>prepareThreshold</code> — even at <code>prepareThreshold=0</code> a single call left a named <code>S_1</code> statement behind and broke connection poolers; routed describe through the same <code>isOneShotQuery</code> gate the execute paths use (a 42.7.8 regression, not a revert)
+    </li>
+    <li>
+      <b>node-mysql2 (MySQL)</b> -
+      <a href="https://github.com/sidorares/node-mysql2/pull/4394">PR #4394</a>:
+      Fixed <code>execute()</code> (binary protocol) skipping a user <code>typeCast</code> on <code>NULL</code> columns while <code>query()</code> (text protocol) applied it — routed NULLs through a null-safe <code>typeCast</code> wrapper so both protocols behave identically, across the eval and <code>disableEval</code> parsers
     </li>
     <li>
       <b>Redis (node-redis)</b> -
       <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>,
       <a href="https://github.com/redis/node-redis/pull/3333">PR #3333</a>:
       Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code>, and <code>XGROUP CREATE</code> / <code>XSETID</code> omitting an explicit <code>ENTRIESREAD 0</code> (both silently fell back to the server default)
+    </li>
+    <li>
+      <b>Axon Framework (CQRS / Event Sourcing)</b> -
+      <a href="https://github.com/AxonIQ/AxonFramework/pull/4733">PR #4733</a>:
+      Fixed annotated handler resolution invoking a shadowed supertype's <code>private</code> handler over the matching subtype handler when signatures matched — the comparator's final tiebreaker had ordered by declaring class name
     </li>
   </ul>
   <br>
