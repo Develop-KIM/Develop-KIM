@@ -17,14 +17,13 @@ Developer with 1 year of professional experience
     </li>
     <li>
       <b>node-mysql2 (MySQL)</b> -
-      <a href="https://github.com/sidorares/node-mysql2/pull/4394">PR #4394</a>:
-      Fixed <code>execute()</code> (binary protocol) skipping a user <code>typeCast</code> on <code>NULL</code> columns while <code>query()</code> (text protocol) applied it — routed NULLs through a null-safe <code>typeCast</code> wrapper so both protocols behave identically, across the eval and <code>disableEval</code> parsers
+      <a href="https://github.com/sidorares/node-mysql2/pull/4425">PR #4425</a>:
+      Fixed a failed <code>execute()</code> (from an undefined bind parameter) staying registered as the connection's active command, which deadlocked the following <code>ROLLBACK</code> — returned <code>null</code> from the execute path's catch so the command queue advances and the transaction can unwind
     </li>
     <li>
-      <b>Redis (node-redis)</b> -
-      <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>,
-      <a href="https://github.com/redis/node-redis/pull/3333">PR #3333</a>:
-      Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code>, and <code>XGROUP CREATE</code> / <code>XSETID</code> omitting an explicit <code>ENTRIESREAD 0</code> (both silently fell back to the server default)
+      <b>JetBrains Exposed (Kotlin SQL / ORM)</b> -
+      <a href="https://github.com/JetBrains/Exposed/pull/2853">PR #2853</a>:
+      Fixed a data race where a JDBC <code>Database</code>'s capability flags were computed through unsynchronized lazy init — switched to thread-safe lazy initialization so concurrent first access from multiple threads can't observe a torn or partially-built value
     </li>
     <li>
       <b>Axon Framework (CQRS / Event Sourcing)</b> -
