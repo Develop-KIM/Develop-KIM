@@ -21,14 +21,24 @@ Developer with 1 year of professional experience
       Fixed a failed <code>execute()</code> (from an undefined bind parameter) staying registered as the connection's active command, which deadlocked the following <code>ROLLBACK</code> — returned <code>null</code> from the execute path's catch so the command queue advances and the transaction can unwind
     </li>
     <li>
+      <b>node-mysql2 (MySQL)</b> -
+      <a href="https://github.com/sidorares/node-mysql2/pull/4394">PR #4394</a>:
+      Fixed a user <code>typeCast</code> never running on NULL columns under the binary protocol — the row parser wrote <code>null</code> before <code>typeCast</code> could see it, so the same callback behaved differently between <code>query()</code> and <code>execute()</code>; routed NULLs through a null-safe value wrapper in both the eval and <code>disableEval</code> parsers
+    </li>
+    <li>
       <b>JetBrains Exposed (Kotlin SQL / ORM)</b> -
       <a href="https://github.com/JetBrains/Exposed/pull/2853">PR #2853</a>:
       Fixed a data race where a JDBC <code>Database</code>'s capability flags were computed through unsynchronized lazy init — switched to thread-safe lazy initialization so concurrent first access from multiple threads can't observe a torn or partially-built value
     </li>
     <li>
-      <b>Axon Framework (CQRS / Event Sourcing)</b> -
-      <a href="https://github.com/AxonIQ/AxonFramework/pull/4733">PR #4733</a>:
-      Fixed annotated handler resolution invoking a shadowed supertype's <code>private</code> handler over the matching subtype handler when signatures matched — the comparator's final tiebreaker had ordered by declaring class name
+      <b>Gradle</b> -
+      <a href="https://github.com/gradle/gradle/pull/38509">PR #38509</a>:
+      Fixed precompiled script plugin tasks receiving their sources as an eagerly resolved <code>Set&lt;File&gt;</code>, which discarded the build dependencies of the source directories — a project generating its <code>.gradle</code> scripts with a task then failed execution-time validation; carried the Groovy source's <code>builtBy</code> onto the task inputs so it runs after the generating task
+    </li>
+    <li>
+      <b>Gradle</b> -
+      <a href="https://github.com/gradle/gradle/pull/38649">PR #38649</a> (co-author):
+      Fixed non-abstract <code>Property</code> / <code>ConfigurableFileCollection</code> getters losing their owner after a configuration cache restore — the owner is attached lazily by the generated getter override, which never runs when configuration is skipped, so errors dropped the owning task and property name; registered such convention properties for on-demand reattachment in the class generator
     </li>
   </ul>
   <br>
