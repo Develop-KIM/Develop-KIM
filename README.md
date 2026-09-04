@@ -43,7 +43,7 @@ Developer with 1 year of professional experience
     <li>
       <b>Puppeteer</b> -
       <a href="https://github.com/puppeteer/puppeteer/pull/15292">PR #15292</a>:
-      Made mutation-based waits (<code>waitForSelector</code> with <code>&gt;&gt;&gt;</code>, text and XPath selectors) observe changes inside open shadow roots
+      Made mutation-based waits (<code>waitForSelector</code> with <code>&gt;&gt;&gt;</code>, text and hanges inside open shadow roots
     </li>
     <li>
       <b>Puppeteer</b> -
