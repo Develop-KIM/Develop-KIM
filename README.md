@@ -31,6 +31,11 @@ Developer with 1 year of professional experience
       Fixed a data race where a JDBC <code>Database</code>'s capability flags were built through unsynchronized lazy init
     </li>
     <li>
+      <b>ioredis (Redis)</b> -
+      <a href="https://github.com/redis/ioredis/pull/2137">PR #2137</a>:
+      Fixed a zero-argument <code>SUNSUBSCRIBE</code> being dropped when a cluster client has sharded subscribers
+    </li>
+    <li>
       <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38509">PR #38509</a>:
       Fixed precompiled script plugin tasks losing the build dependencies of their generated sources
@@ -39,6 +44,16 @@ Developer with 1 year of professional experience
       <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38649">PR #38649</a> (co-author):
       Fixed non-abstract <code>Property</code> getters losing their owner after a configuration cache restore
+    </li>
+    <li>
+      <b>Puppeteer</b> -
+      <a href="https://github.com/puppeteer/puppeteer/pull/15292">PR #15292</a>:
+      Made mutation-based waits (<code>waitForSelector</code> with <code>&gt;&gt;&gt;</code>, text and XPath selectors) observe changes inside open shadow roots
+    </li>
+    <li>
+      <b>Puppeteer</b> -
+      <a href="https://github.com/puppeteer/puppeteer/pull/15358">PR #15358</a>:
+      Fixed <code>page.setContent()</code> going through <code>document.write</code>, which triggered Chrome's intervention and blocked cross-site parser-blocking scripts
     </li>
   </ul>
   <br>
