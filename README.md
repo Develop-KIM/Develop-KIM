@@ -31,11 +31,6 @@ Developer with 1 year of professional experience
       Fixed a data race where a JDBC <code>Database</code>'s capability flags were built through unsynchronized lazy init
     </li>
     <li>
-      <b>ioredis (Redis)</b> -
-      <a href="https://github.com/redis/ioredis/pull/2137">PR #2137</a>:
-      Fixed a zero-argument <code>SUNSUBSCRIBE</code> being dropped when a cluster client has sharded subscribers
-    </li>
-    <li>
       <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38509">PR #38509</a>:
       Fixed precompiled script plugin tasks losing the build dependencies of their generated sources
