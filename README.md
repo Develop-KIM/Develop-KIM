@@ -37,6 +37,11 @@ Developer with 1 year of professional experience
     </li>
     <li>
       <b>Gradle</b> -
+      <a href="https://github.com/gradle/gradle/pull/38762">PR #38762</a>:
+      Fixed file collections losing their display name after a configuration cache restore, which degraded error messages
+    </li>
+    <li>
+      <b>Gradle</b> -
       <a href="https://github.com/gradle/gradle/pull/38649">PR #38649</a> (co-author):
       Fixed non-abstract <code>Property</code> getters losing their owner after a configuration cache restore
     </li>
