@@ -26,9 +26,24 @@ Developer with 1 year of professional experience
       Fixed a user <code>typeCast</code> never running on NULL columns under the binary protocol
     </li>
     <li>
-      <b>JetBrains Exposed (Kotlin SQL / ORM)</b> -
-      <a href="https://github.com/JetBrains/Exposed/pull/2853">PR #2853</a>:
-      Fixed a data race where a JDBC <code>Database</code>'s capability flags were built through unsynchronized lazy init
+      <b>ioredis (Redis)</b> -
+      <a href="https://github.com/redis/ioredis/pull/2137">PR #2137</a>:
+      Fixed a zero-argument <code>SUNSUBSCRIBE</code> being dropped when a cluster client has sharded subscribers
+    </li>
+    <li>
+      <b>node-redis (Redis)</b> -
+      <a href="https://github.com/redis/node-redis/pull/3342">PR #3342</a>:
+      Fixed <code>XADD</code>/<code>XTRIM</code> dropping an explicit <code>LIMIT 0</code>, which silently capped trimming instead of making it unlimited
+    </li>
+    <li>
+      <b>node-redis (Redis)</b> -
+      <a href="https://github.com/redis/node-redis/pull/3333">PR #3333</a>:
+      Fixed <code>XGROUP CREATE</code>/<code>SETID</code> dropping an explicit <code>ENTRIESREAD 0</code>, so a consumer group's lag counter could not be reset
+    </li>
+    <li>
+      <b>node-redis (Redis)</b> -
+      <a href="https://github.com/redis/node-redis/pull/3328">PR #3328</a>:
+      Fixed <code>MEMORY USAGE</code> dropping an explicit <code>SAMPLES 0</code>, which silently fell back to the server default of 5 samples
     </li>
     <li>
       <b>Gradle</b> -
@@ -48,12 +63,22 @@ Developer with 1 year of professional experience
     <li>
       <b>Puppeteer</b> -
       <a href="https://github.com/puppeteer/puppeteer/pull/15292">PR #15292</a>:
-      Made mutation-based waits (<code>waitForSelector</code> with <code>&gt;&gt;&gt;</code>, text and hanges inside open shadow roots
+      Made mutation-based waits (<code>waitForSelector</code> with <code>&gt;&gt;&gt;</code>, text and XPath selectors) observe changes inside open shadow roots
     </li>
     <li>
       <b>Puppeteer</b> -
       <a href="https://github.com/puppeteer/puppeteer/pull/15358">PR #15358</a>:
       Fixed <code>page.setContent()</code> going through <code>document.write</code>, which triggered Chrome's intervention and blocked cross-site parser-blocking scripts
+    </li>
+    <li>
+      <b>Playwright Java</b> -
+      <a href="https://github.com/microsoft/playwright-java/pull/1967">PR #1967</a>:
+      Fixed tracing with <code>setSources(true)</code> capturing no source files for browsers attached via <code>connect()</code>, because call stacks were sent on the wrong connection
+    </li>
+    <li>
+      <b>Playwright Java</b> -
+      <a href="https://github.com/microsoft/playwright-java/pull/1948">PR #1948</a>:
+      Fixed <code>Screencast.showActions()</code> rejecting every <code>AnnotatePosition</code> value because the enum was sent to the driver without its Gson serializer
     </li>
   </ul>
   <br>
