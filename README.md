@@ -11,6 +11,11 @@ Developer with 2 year of professional experience
       Fixed UNION queries rejecting the same Java type reached through different attribute paths
     </li>
     <li>
+      <b>Hibernate ORM</b> -
+      <a href="https://github.com/hibernate/hibernate-orm/pull/13073">PR #13073</a>:
+      Fixed null elements of an inverse <code>@OneToMany</code> + <code>@OrderColumn</code> list losing their index gap on update, so the list came back compacted or the flush failed with a <code>PropertyAccessException</code>
+    </li>
+    <li>
       <b>pgjdbc (PostgreSQL JDBC)</b> -
       <a href="https://github.com/pgjdbc/pgjdbc/pull/4297">PR #4297</a>:
       Fixed <code>PreparedStatement.getMetaData()</code> bypassing <code>prepareThreshold</code> and leaving a named server-side statement behind
